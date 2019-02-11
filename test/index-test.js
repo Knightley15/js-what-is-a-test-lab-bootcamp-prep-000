@@ -8,19 +8,16 @@ describe('what-is-a-test', () => {
   })
 
 
- describe("Height", () = {
-    it('returns "74"', () = {
-      expect(index.height).toBeEqual('74')
+ describe("Height", () => {
+    it('returns "74"', () => {
+      expect(index.height).toBeEqual('40')
     })
   })
   
-
   describe('Message', () => {
     it('gives the name and height', () => {
       expect(index.message).toInclude(index.name)
       expect(index.message).toInclude(index.height)
-      ${name} is ${height} inches tall`
- 
     })
   })
 
